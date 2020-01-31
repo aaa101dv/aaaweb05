@@ -4,6 +4,7 @@ import datetime
 import time
 import md5
 import re
+import os
 import sys
 from functools import wraps
 from ldap3 import Server, Connection, ALL #<-----------------------import biblioteka
