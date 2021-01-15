@@ -22,7 +22,7 @@ student=os.environ.get('USERNAME')
 port=os.environ.get('PORT')
 title=os.environ.get('TITLE')
 
-dn = 'userid={},ou=studenti1,ou=is,ou=vvg,dc=aaa,dc=vvg,dc=hr'
+dn = 'userid={},ou=studenti,ou=is,ou=vvg,dc=aaa,dc=vvg,dc=hr'
 username = None
 conn = None
 password = None
