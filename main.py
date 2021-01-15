@@ -18,7 +18,7 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 sys.setdefaultencoding('utf-8')
 
 ldap_server = os.environ.get('SERVER')
-student=os.environ.get('USERNAME')
+student=os.environ.get('USER_NAME')
 port=os.environ.get('PORT')
 title=os.environ.get('TITLE')
 
